@@ -1,0 +1,44 @@
+.container {
+    width: 100%;    
+}
+
+h1 {
+    margin: 10px auto 10px;
+    
+}
+
+.cardsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.cardContainer {
+    display : grid;
+    grid-template-columns: 3fr, 2fr;
+    
+}
+span {
+
+}
+
+.infoCard {
+
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+.imagesCard {
+    width: 207px;
+    height: 207px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
