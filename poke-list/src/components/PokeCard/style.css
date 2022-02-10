@@ -9,19 +9,20 @@ h1 {
 
 .cardsList {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));l */
+
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
 }
 .cardContainer {
     display : grid;
     grid-template-columns: 3fr, 2fr;
-    width: 300px; 
-    height: 250px;;  
+    width: 200px; 
+    height: 150px;;  
     background-color: green;
     color: #fff;
     border-radius: 10%; 
     margin-left: 15px;
-    padding: 15px 25px;
+    padding: 10px 20px;
     
 }
 span {
@@ -33,7 +34,7 @@ span {
 }
 
 h2 {
-
+    font-size: 16px;
 }
 
 p {
@@ -41,23 +42,29 @@ p {
 }
 
 .imagesCard {
-    width: 207px;
-    height: 207px;
-    position: absolute;
-    
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -40px;
+    left: 110px;
 }
 
 img {
     width: 100px;
     height: 100px;
+    position: absolute;
+    
+    
 }
+
 
 .infoCard p{
     background-color: beige;
     margin: 0;
     padding: 0;
-    width: 60px;
+    font-size: 12px;
+    width: 40px;
     color: #000000;
     border-radius: 15%;
-    margin-top: 10px;
+    margin-top: 5px;
 }
