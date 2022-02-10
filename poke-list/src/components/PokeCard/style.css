@@ -1,5 +1,5 @@
 .container {
-    width: 100%;    
+    width: 100%;
 }
 
 h1 {
@@ -10,14 +10,22 @@ h1 {
 .cardsList {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
 }
 .cardContainer {
     display : grid;
     grid-template-columns: 3fr, 2fr;
+    width: 300px; 
+    height: 250px;;  
+    background-color: green;
+    color: #fff;
+    border-radius: 10%; 
+    margin-left: 15px;
+    padding: 15px 25px;
     
 }
 span {
-
+    font-weight: bolder;
 }
 
 .infoCard {
@@ -35,6 +43,8 @@ p {
 .imagesCard {
     width: 207px;
     height: 207px;
+    position: absolute;
+    
 }
 
 img {
@@ -42,3 +52,12 @@ img {
     height: 100px;
 }
 
+.infoCard p{
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    color: #000000;
+    border-radius: 15%;
+    margin-top: 10px;
+}
