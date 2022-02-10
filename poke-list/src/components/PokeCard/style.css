@@ -68,3 +68,7 @@ img {
     border-radius: 15%;
     margin-top: 5px;
 }
+
+.cardContainer:hover{
+    transform: scale(1.2); 
+}

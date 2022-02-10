@@ -18,7 +18,7 @@ const PokeCard = () => {
                     </div>
 
                     <div className="imagesCard">
-                        <img src="poke-color-gray.png" alt="Pokeball background"/>
+                        <img src="poke-color-gray.png" alt="Pokeball background" id='pokelogo'/>
                         <img src="pokeball.png" alt="Imagem do pokemon"/>
                     </div>
 
